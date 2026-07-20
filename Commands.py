@@ -6,8 +6,9 @@ import os
 from datetime import datetime, timezone, timedelta
 from telegram import Update
 from telegram.ext import ContextTypes
+import sys
+sys.path.append('.')
 from hinglish import to_hinglish
-
 logger = logging.getLogger(__name__)
 
 IST = timezone(timedelta(hours=5, minutes=30))
