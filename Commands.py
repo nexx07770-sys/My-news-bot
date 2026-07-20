@@ -6,7 +6,7 @@ import os
 from datetime import datetime, timezone, timedelta
 from telegram import Update
 from telegram.ext import ContextTypes
-from handlers.hinglish import to_hinglish
+from hinglish import to_hinglish
 
 logger = logging.getLogger(__name__)
 
