@@ -7,7 +7,7 @@ from datetime import datetime, timezone, timedelta
 from telegram import Update
 from telegram.ext import ContextTypes
 import sys
-sys.path.append('.')
+sys.path.append('/opt/render/project/src')
 from hinglish import to_hinglish
 logger = logging.getLogger(__name__)
 
